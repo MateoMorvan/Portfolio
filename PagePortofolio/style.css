@@ -1,0 +1,137 @@
+/* body */
+
+body {
+  background-color: #1b263b;
+}
+
+/* header */
+
+header {
+  background-color: #1b263b;
+  color: white;
+  width: 100%;
+}
+
+header>h1,
+h2 {
+  text-align: center;
+}
+
+header>h1 {
+  font-size: 60px;
+}
+
+header>h2 {
+  font-size: 40px;
+}
+
+/* main */
+
+main {
+  color: white;
+  padding: 10px 10px;
+  background-color: #415a77;
+  margin-top: 10em;
+}
+
+main>div>a>img {
+  width: 70%;
+  height: 30em;
+  border-radius: 45px;
+  margin: 20px;
+}
+
+main>div>h3 {
+  font-size: 40px;
+}
+
+/*Détail di*/
+
+
+/* footer */
+footer {
+  padding: 20px 10px;
+  margin: 30px 10px;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  border: #415a77 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/* Barre nav */
+
+#test{
+  background-color: #1b263b;
+  position: sticky;
+  top: 0px;
+}
+
+#barreNav {
+  font-size: 25px;
+  padding: 20px;
+}
+
+#test>nav>a {
+  outline: none;
+  text-decoration: none;
+  color: #415a77;
+  font-size: 30px;
+}
+
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
